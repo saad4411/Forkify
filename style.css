@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F28C28;
+}
+
+.container {
+    height: 90%;
+    width: 90%;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+}
+
+.top {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 200%;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.logoImg {
+    width: 30vh;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding-right: 25px;
+    font-size: larger;
+}
+
+.topMiddle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+}
+
+.searchBar {
+    width: 70%;
+    height: 8vh;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    font-size: large;
+}
+
+.searchBtn {
+    width: 10vw;
+    height: 8vh;
+    background-color: #ba2d0b;
+    background-image: linear-gradient(319deg, #ba2d0b 0%, #fe7f2d 37%, #ffbf46 100%);
+    font-size: larger;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.bottom {
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.bottomLeft {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.bottomRight {
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textContainer {
+    text-align: center;
+    font-size: larger;
+}
+
+.imageDisplay {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recipe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.recipe img {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.recipe h3 {
+    margin: 0;
+    font-size: 16px;
+}
